@@ -7,4 +7,4 @@ $I->haveHttpHeader('Content-Type', 'application/x-www-form-urlencoded');
 $I->sendPOST('/todos', ['task' => 'davert' ]);
 $I->seeResponseCodeIs(201);
 $I->seeResponseIsJson();
-$I->seeResponseContains('"task":"daverdfdfdft"');
+$I->seeResponseContains('"task":"davert"');
