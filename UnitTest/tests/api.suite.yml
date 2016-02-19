@@ -3,4 +3,4 @@ modules:
     enabled:
        - REST:
                   depends: PhpBrowser
-                  url: 'http://217.77.223.135:38'
+                  url: 'http://217.77.223.135:38/utest/web'
