@@ -1,0 +1,38 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-browserify": "^0.5.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.1.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "gulp-batch": "^1.0.5",
+    "gulp-connect": "^2.3.1",
+    "gulp-express": "^0.3.5",
+    "gulp-jshint": "^2.0.0",
+    "gulp-live-server": "0.0.29",
+    "gulp-server-livereload": "^1.7.0",
+    "gulp-stylus": "^2.3.0",
+    "gulp-sync": "^0.1.4",
+    "gulp-watch": "^4.3.5",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "monitorctrlc": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
