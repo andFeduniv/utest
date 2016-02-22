@@ -1,0 +1,6 @@
+h1 Todo list
+ul(ng-repeat='todo in TodoCtrl.todoList')
+	li {{ todo.task }} : {{todo.done}}
+
+input(type='text' ng-model='TodoCtrl.newTask.task' placeholder='Add task')
+button(ng-click='TodoCtrl.addTask()') Submit
