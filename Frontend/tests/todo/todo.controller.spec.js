@@ -91,7 +91,7 @@ describe('TodoController', function() {
 			ctrl.addTask();
 			var newLen = ctrl.todoList.length;
 
-			expect(ctrl.error).toEqual('Task is too long! AAAAAAAAA');
+			expect(ctrl.error).toEqual('Task is too long!');
 			expect(newLen).toEqual(oldLen);		
 		});
 	})
