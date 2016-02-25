@@ -2,7 +2,7 @@
     'use strict';
     var appParams = {
         api: {
-            todoApiUrl: '/api/todos'
+            todoApiUrl: '/utest/web/todos'
         }
     };
     angular.module('todo-app').constant('AppParams', appParams);
